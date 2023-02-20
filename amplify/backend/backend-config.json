@@ -1,27 +1,6 @@
 {
-  "api": {
-    "api7cffa6a0": {
-      "dependsOn": [
-        {
-          "attributes": [
-            "Name",
-            "Arn"
-          ],
-          "category": "function",
-          "resourceName": "awsamplifypractice67e65eae"
-        }
-      ],
-      "providerPlugin": "awscloudformation",
-      "service": "API Gateway"
-    }
-  },
-  "function": {
-    "awsamplifypractice67e65eae": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    }
-  },
+  "api": {},
+  "function": {},
   "hosting": {
     "amplifyhosting": {
       "providerPlugin": "awscloudformation",
@@ -30,22 +9,6 @@
     }
   },
   "parameters": {
-    "AMPLIFY_function_awsamplifypractice67e65eae_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "awsamplifypractice67e65eae"
-        }
-      ]
-    },
-    "AMPLIFY_function_awsamplifypractice67e65eae_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "awsamplifypractice67e65eae"
-        }
-      ]
-    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {

@@ -12,15 +12,6 @@
       "AmplifyAppId": "ddwyvnop1mw98"
     },
     "categories": {
-      "function": {
-        "awsamplifypractice67e65eae": {
-          "deploymentBucketName": "amplify-awsamplifypractice-dev-223920-deployment",
-          "s3Key": "amplify-builds/awsamplifypractice67e65eae-51367058765750526e68-build.zip"
-        }
-      },
-      "api": {
-        "api7cffa6a0": {}
-      },
       "hosting": {
         "amplifyhosting": {
           "appId": "ddwyvnop1mw98",
