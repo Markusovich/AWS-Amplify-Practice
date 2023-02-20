@@ -17,6 +17,19 @@
           "appId": "ddwyvnop1mw98",
           "type": "manual"
         }
+      },
+      "function": {
+        "CustomerHandler": {
+          "deploymentBucketName": "amplify-awsamplifypractice-dev-223920-deployment",
+          "s3Key": "amplify-builds/CustomerHandler-30414734425a72474b43-build.zip"
+        },
+        "StreetHandler": {
+          "deploymentBucketName": "amplify-awsamplifypractice-dev-223920-deployment",
+          "s3Key": "amplify-builds/StreetHandler-597a764a6d4730375073-build.zip"
+        }
+      },
+      "api": {
+        "CustomerApi": {}
       }
     }
   }

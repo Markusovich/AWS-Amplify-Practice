@@ -10,7 +10,7 @@ const App = () => {
   //Function to fetch from our backend and update customers array
   function getCustomer(e) {
     let customerId = e.input
-    API.get("api7cffa6a0", "/customers/" + customerId)
+    API.get("CustomerApi", "/customers/" + customerId)
        .then(response => {
          console.log(response)
          let newCustomers = [...customers]
